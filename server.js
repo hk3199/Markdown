@@ -28,6 +28,6 @@ app.get('/',(req,res)=>{
    res.render('articles/index', {articles: articles})  //want all of my articles in this index page
 })
 
-
+//added
 app.use('/articles',articleRouter)
 app.listen(8080)
